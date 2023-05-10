@@ -14,8 +14,4 @@ for country in countries:
              and v not in [None, '', ' ']}
     country.update(fixed)
     keyed.update({country['ISO3166-1-Alpha-3']: country})
-
-output_filename = "data/iso3166.json"
-f = open(output_filename, mode='w')
-stream = codecs.getwriter('utf8')(f)
-json.dump(keyed, stream, ensure_ascii=False, indent=2, encoding='utf-8')
+i have to take a tinkal 200000 (java)criptc 
